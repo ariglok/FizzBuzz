@@ -30,4 +30,13 @@ public class FizzBuzzTest {
 
         assertEquals("7",fizzBuzz.fizzBuzz(7));
     }
+
+    @Test
+    public void returFizzBuzzIfInputIsMultipleOfTreeAndFive(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
+    }
+
+
 }

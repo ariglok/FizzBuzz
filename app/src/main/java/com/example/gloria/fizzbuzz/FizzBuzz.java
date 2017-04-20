@@ -10,7 +10,9 @@ public class FizzBuzz {
             return "Fizz";
         }else if (value == 5){
             return  "Buzz";
-        }else {
+        }else if ( value % 3 == 0 && value % 5 == 0) {
+            return  "FizzBuzz";
+        }else{
             return ""+value;
         }
     }
